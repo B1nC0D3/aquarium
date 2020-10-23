@@ -40,9 +40,8 @@ services:
         links:
             - tor
         volumes:
-            - ./filters:/etc/splash/filters:ro
+            - ./proxy-profiles:/etc/splash/proxy-profiles:ro
         {%- endif %}
-
     {%- endfor %}
 
 
@@ -54,5 +53,4 @@ services:
         logging:
             driver: "none"
         restart: always
-
     {% endif %}
