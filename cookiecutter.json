@@ -4,7 +4,7 @@
     "splash_version": "3.5.0",
     "splash_verbosity": 1,
     "max_timeout": 300,
-    "maxrss_mb": 5000,
+    "maxrss_mb": 7000,
     "splash_slots": 5,
     "stats_enabled": 1,
     "stats_auth": "admin:adminpass",
