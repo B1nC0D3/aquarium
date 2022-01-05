@@ -11,7 +11,7 @@ version: '2'
 
 services:
     haproxy:
-        image: haproxy:2.3
+        image: haproxy:2.5
         ports:
             # stats
             - "8036:8036"
