@@ -28,7 +28,7 @@ services:
     {%- for i in range(num_splashes) %}
 
     splash{{i}}:
-        image: whalebothelmsman/supervised-splash:{{ cookiecutter.splash_version }}
+        image: whalebothelmsman/supervised-splash:latest
         command: --max-timeout {{ max_timeout }} --slots {{ splash_slots }} --maxrss {{ maxrss }} --verbosity {{ verbosity }}
         expose:
             - 8050
