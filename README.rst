@@ -1,5 +1,6 @@
 Aquarium
 ========
+This fork of fork of fork needs for fixing check-conn with splash. All i do is changed config just a little
 
 Aquarium is a cookiecuter_ template for hassle-free
 `Docker Compose`_ + Splash_ setup. Think of it as a Splash instance
