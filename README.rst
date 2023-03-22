@@ -25,7 +25,7 @@ or (on OS X + homebrew)::
 
 Then generate a folder with config files::
 
-    cookiecutter gh:KonstantinVasilkov/aquarium
+    cookiecutter gh:B1nC0D3/aquarium
 
 With all default options it'll create an ``aquarium`` folder in the current
 path. Go to this folder and start the Splash cluster::
