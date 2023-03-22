@@ -3,7 +3,7 @@
     "num_splashes": 5,
     "splash_verbosity": 1,
     "max_timeout": 300,
-    "maxrss_mb": 7000,
+    "maxrss_mb": 4000,
     "splash_slots": 5,
     "stats_enabled": 1,
     "stats_auth": "admin:adminpass",
