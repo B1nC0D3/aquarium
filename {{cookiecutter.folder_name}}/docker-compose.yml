@@ -2,8 +2,8 @@
 {% set splash_slots = cookiecutter.splash_slots|int %}
 {% set max_timeout = cookiecutter.max_timeout|int %}
 {% set maxrss = cookiecutter.maxrss_mb | int %}
-{% set mem_limit = "%dm" | format(maxrss * 1.4) %}
-{% set memswap_limit = "%dm" | format(maxrss * 1.8) %}
+{% set mem_limit = "%dm" | format(maxrss) %}
+{% set memswap_limit = "%dm" | format(maxrss * 2) %}
 {% set tor = cookiecutter.tor | int %}
 {% set verbosity = cookiecutter.splash_verbosity %}
 
